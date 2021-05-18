@@ -1,0 +1,83 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .container-heading{
+        font-size: 44px; 
+    }
+    .container-heading_second{
+        font-size: 30px;
+    }
+    .header-item_link{
+        font-size: 14px;
+    }
+    .contact-item{
+        margin-top: 45%;
+        
+    }
+}
+/* Mobile */
+@media (max-width: 739px){
+    .header-logo_link{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-main{
+        padding-bottom: 0;
+    }
+    .container-heading{
+        font-size: 44px; 
+    }
+    .container-heading_second{
+        font-size: 30px;
+    }
+    .header-item_link{
+        font-size: 14px;
+    }
+    .why-btn-item{
+        margin-bottom: 20px;
+    }
+    .form-contact{
+        width: 450px;
+    }
+    .main-form{
+        margin-bottom: -50%;
+    }
+    .contact-item{
+        margin-top: 50%;
+    }
+    .menu-mobile-btn{
+        display: block;
+        cursor: pointer;
+    }
+    .container-btn{
+        margin: 0 auto 20px auto;
+    }
+    .form-contact{
+        margin-bottom: -5%;
+    }
+
+}
+@media (max-width: 500px){
+    .form-contact{
+        margin-bottom: -5%;
+        width: 350px;
+    }
+    .input-item{
+        padding: 6px 12px;
+    }
+}
+@media (max-width: 320px){
+    .form-contact{
+        margin-bottom: -5%;
+        width: 300px;
+    }
+    .input-item{
+        padding: 6px 12px;
+    }
+}
+/* PC-low */
+@media (min-width: 1024px) and (max-width: 1239px){
+    .contact-item{
+        margin-top: 35%;
+        
+    }
+}
